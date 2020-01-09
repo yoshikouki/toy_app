@@ -3,4 +3,5 @@ class ApplicationController < ActionController::Base
   
   def hello
     render html: "hello,world! Rails Tutorial Chapter 2!!"
+  end
 end
